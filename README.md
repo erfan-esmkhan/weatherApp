@@ -1,4 +1,4 @@
-A water and weather project that shows the city's weather online using API, which shows the weather conditions of each city online using API.
+A weather project that shows the city's weather online using API, which shows the weather conditions of each city online using API.
 This project is made and used using JavaScript, HTML and CSS :) ❤️🙌
 
 

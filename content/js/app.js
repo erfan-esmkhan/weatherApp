@@ -2,13 +2,13 @@ const inputElem = document.querySelector('input')
 
 let apiData = {
     url: 'https://api.openweathermap.org/data/2.5/weather?q=',
-    key: '26c4d8ad14b57209671494df9bd9fcb9'
+    key: '0a7d23c758269e196d08e128aaa9bfd9'
 }
 
 function fetchData () {
     let countryValue = inputElem.value
 
-    fetch(`${apiData.url}${countryValue}&&appid=${apiData.key}`).
+    fetch(`${apiData.url}${countryValue}&appid=${apiData.key}`).
         then(res => res.json())
         .then(data => {
             console.log(data);

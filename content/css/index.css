@@ -93,3 +93,37 @@
     font-weight: 500;
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
   }
+
+
+  .developer-icon1 {
+    font-size: 1.5vw;
+   margin-left: 10px;
+    
+
+  }
+  .developer-icon1 a:hover{
+    color : rgb(225, 48, 108)
+  }
+  .developer-icon1 a {
+    text-decoration: none;
+    color: white;
+  }
+  .social-countainer{
+    display: flex;
+    margin: 0 0 18px 50px;
+  }
+
+  .developer-icon2{
+    font-size: 1.5vw;
+    margin-left: 10px;
+
+  }
+  .developer-icon2 a:hover{
+    color: rgb(153, 153, 153);
+  }
+  .developer-icon2 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  

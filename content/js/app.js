@@ -8,7 +8,7 @@ let apiData = {
 function fetchData () {
     let countryValue = inputElem.value
 
-    fetch(`${apiData.url}${countryValue}&appid=${apiData.key}`).
+    fetch(`${apiData.url}${countryValue}&&appid=${apiData.key}`).
         then(res => res.json())
         .then(data => {
             console.log(data);
